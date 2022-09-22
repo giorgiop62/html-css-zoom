@@ -41,10 +41,27 @@ header ul li {
 main {
   height: calc(100vh - 110px);
   overflow: auto;
+  background-color: black;
 }
 
 .fa-table-cells {
   padding-right: 5px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.foto {
+  width: calc(100% / 5);
+  padding: 2px 4px;
+  min-width: 20vh;
 }
 
 footer {
