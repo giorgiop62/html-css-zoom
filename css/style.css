@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: black;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  
+}
+
+header ul li {
+  margin-right: 5px;
+
+}
+
+.button {
+  background-color: #4a4a4a;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 6px 6px;
+
+}
+
+.fa-table-cells {
+  padding-right: 5px;
+}
+
+
+
+
+
