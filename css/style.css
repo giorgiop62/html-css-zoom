@@ -10,6 +10,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   background-color: black;
+
 }
 
 header ul {
@@ -32,9 +33,44 @@ header ul li {
 
 }
 
+.end {
+  color: red;
+  background-color: #4a4a4a;
+
+}
+main {
+  height: calc(100vh - 110px);
+  overflow: auto;
+}
+
 .fa-table-cells {
   padding-right: 5px;
 }
+
+footer {
+  background-color: #222222;
+  color: white;
+  height: 60px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer ul {
+  list-style-type: none;
+  display: flex;
+  
+}
+
+footer ul li {
+  padding: 15px;
+}
+
+
+
+
 
 
 
